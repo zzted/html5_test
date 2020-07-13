@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Form Demo</title>
 </head>
 <body>
+    <h1>Login</h1>
 
+    <form>
+        <label for="Email">Email</label>
+        <input id="Email" name="Email" type="Email" placeholder="Email" name="" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="password" name="" required>
+        <input name="submit" type="submit" name="">
+    </form>
+    <form>
+        <p>Which type of weapon would you prefer?</p>
+        <label for="rifle">Rifle: </label>
+        <input id="rifle" type="radio" name="gunchoice" value="rifle">
+        <label for="pistol">Pistol: </label>
+        <input id="pistol" type="radio" name="gunchoice" value="pistol">
+        <p>What's your favourite battleship?</p>
+        <select name="shipchoicie">
+            <option>Cruiser</option>
+            <option>Destroyer</option>
+            <option>Battleship</option>
+        </select>
+        <textarea rows="10" cols="15"></textarea>
+        <button>Comfirm</button>
+    </form>
 </body>
 </html>
