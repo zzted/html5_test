@@ -1,0 +1,15 @@
+img{
+    width: 28%;
+    float: top;
+    margin: 1.66%;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid grey;
+    width: 30%;
+    padding-bottom: 30px;
+}

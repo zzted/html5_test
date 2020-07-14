@@ -1,0 +1,19 @@
+h1 {
+    color: #12e69c;
+    border: 8px dashed purple;
+}
+
+li {
+    color: rgb(1138, 333, 356);
+}
+
+h4 {
+    background: rgb(255, 100, 23);
+}
+
+body {
+    /*background: url("cyber_wal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background: pink;
+}

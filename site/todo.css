@@ -1,0 +1,9 @@
+li {
+    border: 2px solid red;
+}
+
+.c1{
+    background: yellow;
+    border: 2px solid green;
+    text-decoration: line-through;
+}
