@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fonts</title>
+    <title>Color Game</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Indie+Flower&display=swap" rel="stylesheet">
+    
 
 </head>
 <body>
-    <h1>Fonts Demo Page</h1>
-<p>
-    Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span>. Maecenas luctus volutpat neque, sed rutrum leo tempor sit amet. Sed non varius arcu. Nam sodales elit id justo congue condimentum. Cras porttitor dui ac sagittis dictum. Maecenas interdum bibendum nisi vitae dictum. Praesent convallis fermentum quam, non mollis lectus lacinia a. Duis congue sapien sed nulla consectetur condimentum. Maecenas eros turpis, gravida at commodo imperdiet, ullamcorper sed mi. Quisque pulvinar fermentum enim, vitae bibendum neque luctus sed. Sed non justo quis tortor vulputate dictum vitae sit amet metus. Suspendisse a feugiat lectus, a tristique dolor. Sed auctor consectetur lorem quis volutpat. Curabitur vitae felis et nulla pulvinar scelerisque. Nunc vitae ex in turpis tincidunt porttitor. Etiam quis tortor et purus fringilla vulputate. Cras imperdiet est sit amet bibendum aliquet.
-</p>
-<p>
-    Nullam id neque porta nunc semper laoreet. Fusce semper, nunc sed tincidunt aliquet, metus quam bibendum ante, auctor consequat dui mi id odio. Suspendisse ut luctus augue, nec rutrum nunc. Sed commodo semper quam ac mattis. Quisque mattis mattis elementum. Aliquam eget risus a nisl interdum volutpat convallis mollis sem. Phasellus diam mauris, mollis eget lorem in, finibus pellentesque erat. Mauris sagittis gravida efficitur. Nulla facilisi. Cras mattis, felis non rhoncus venenatis, ligula enim pellentesque purus, ac imperdiet est augue in lorem.
-</p>
-<p>
-    Curabitur et sem vitae sapien ultricies dapibus vel id diam. Duis sollicitudin lacus quis ante sodales, vel dignissim ipsum maximus. Sed vel ullamcorper neque. Duis consectetur dolor purus, vitae aliquam massa luctus sit amet. Etiam pulvinar laoreet sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean libero turpis, iaculis sit amet ex sollicitudin, vestibulum eleifend felis. Ut molestie quam dolor, nec fringilla erat consectetur non. Cras vitae justo sed purus elementum finibus at at mauris. Ut dapibus sodales sapien, et mollis diam suscipit in. Morbi commodo ipsum a sem ornare sagittis. Proin nec facilisis lorem, nec aliquam sem.
-</p>
+    <h1>The Great 
+        <br>
+        <span id="tarColor">RGB</span>
+        <br>
+         Color Game
+     </h1>
+    <div id="stripe">
+        <button id="reset">New Color</button>
+        <span id="message"></span>
+        <button class="difficulty">Easy</button>
+        <button class="difficulty">Hard</button>
+    </div>
+    
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
 
-
-</body>
+    <script type="text/javascript" src="script.js"></script>
+    
 </html>
